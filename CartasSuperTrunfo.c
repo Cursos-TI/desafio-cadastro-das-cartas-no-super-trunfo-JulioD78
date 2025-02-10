@@ -6,16 +6,16 @@
 //Teste larissa
 
 int main() {
-    Estado(char);
-    Codigodacidade(char[10]);
-    Nomedacidade(char[30]);
-    Populacao(int);
-    Areaemkm(float);
-    Pib(float);
-    Numerodepontosturisticos(int);
-    Densidadepopuacional(float);
-    Pibpercapita(float);
-    Superpoder(float);
+    char Estado[2];
+    char Codigodacidade[5];
+    char Nomedacidade[30];
+    int Populacao;
+    float Areaemkm;
+    float Pib;
+    int Nptsturisticos;
+    float Densidadepopuacional;
+    float Pibpercapita;
+    float Superpoder;
     printf("Digite o Código da Cidade:\n");
     scanf("%s",&Codigodacidade);
     printf("Digite o nome do Estado:\n");
@@ -29,11 +29,11 @@ int main() {
     printf("Digite o PIB:\n");
     scanf("%f",&Pib);
     printf("Digite o Número de Pontos Turísticos:\n");
-    scanf("%d",&Numerodepontosturisticos);
-    printf("Códiog da Cidade: %s  Nome do Estado: %s\n",Codigodacidade,Estado);
+    scanf("%d",&Nptsturisticos);
+    printf("Código da Cidade: %s     Nome do Estado: %s\n",Codigodacidade ,Estado);
     printf("Nome da Cidade : %s\n",Nomedacidade);
     printf("População : %d     Área em KM2: %f\n",Populacao,Areaemkm);
-    printf("PIB : %f     Número de Pontos Turísticos: %d\n",Pib,Numerodepontosturisticos);
+    printf("PIB : %f     Número de Pontos Turísticos: %d\n",Pib,Nptsturisticos);
     
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
