@@ -7,7 +7,7 @@
 
 int main() {
     Estado(char);
-    Codigodacarta(char[10]);
+    Codigodacidade(char[10]);
     Nomedacidade(char[30]);
     Populacao(int);
     Areaemkm(float);
@@ -16,6 +16,25 @@ int main() {
     Densidadepopuacional(float);
     Pibpercapita(float);
     Superpoder(float);
+    printf("Digite o Código da Cidade:\n");
+    scanf("%s",&Codigodacidade);
+    printf("Digite o nome do Estado:\n");
+    scanf("%s",&Estado);
+    printf("Digite o nome da Cidade:\n");
+    scanf("%s",&Nomedacidade);
+    printf("Digite a Quantidade da População:\n");
+    scanf("%d",&Populacao);
+    printf("Digite a Área em Km2:\n");
+    scanf("%f",&Areaemkm);
+    printf("Digite o PIB:\n");
+    scanf("%f",&Pib);
+    printf("Digite o Número de Pontos Turísticos:\n");
+    scanf("%d",&Numerodepontosturisticos);
+    printf("Códiog da Cidade: %s  Nome do Estado: %s\n",Codigodacidade,Estado);
+    printf("Nome da Cidade : %s\n",Nomedacidade);
+    printf("População : %d     Área em KM2: %f\n",Populacao,Areaemkm);
+    printf("PIB : %f     Número de Pontos Turísticos: %d\n",Pib,Numerodepontosturisticos);
+    
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
